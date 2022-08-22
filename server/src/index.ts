@@ -1,6 +1,7 @@
 import express from 'express'
 import { graphqlHTTP } from 'express-graphql'
 import { buildSchema } from 'graphql'
+import cors from 'cors'
 
 const app = express()
 
@@ -14,10 +15,11 @@ const schema = buildSchema(`
 // The root provides a resolver function for each API endpoint
 const root = {
   hello: () => {
-    return 'Hello world!'
+    return 'Hello GraphQL!'
   },
 }
 
+app.use(cors())
 app.use('/graphql', graphqlHTTP({
   schema,
   rootValue: root,

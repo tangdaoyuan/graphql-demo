@@ -28,13 +28,13 @@
     "*.d.ts"
   ],
   "scripts": {
+    "dev": "pnpm run -r dev",
     "test": "vitest",
     "test:run": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "start": "tsx ./src/index.ts",
-    "dev": "tsup --watch",
     "build": "tsup",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp --tag --commit --push && pnpm publish"
