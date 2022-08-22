@@ -1,1 +1,1 @@
-export default '@suger-tdy/tsup-starter'
+export default '@suger-tdy/graphql-demo'

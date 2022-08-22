@@ -1,3 +1,3 @@
-# @suger-tdy/tsup-starter
-> 
-> My starter project for typescript(tsup).
+# @suger-tdy/graphql-demo
+
+> A simple trial for graphQL

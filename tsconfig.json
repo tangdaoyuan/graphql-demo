@@ -20,7 +20,7 @@
       "@/*": [
         "src/*"
       ],
-      "@suger-tdy/tsup-starter/*": [
+      "@suger-tdy/graphql-demo/*": [
         "dist/*"
       ]
     }

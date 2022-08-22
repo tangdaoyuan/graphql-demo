@@ -1,18 +1,16 @@
 {
-  "name": "@suger-tdy/tsup-starter",
+  "name": "@suger-tdy/graphql-demo",
   "version": "0.0.0",
   "packageManager": "pnpm@7.9.0",
-  "description": "starter project for typescript (tsup)",
+  "description": "a simple trial for graphql",
   "keywords": [
-    "typescript-starter",
-    "ts-starter",
-    "tsup-starter"
+    "graphql-demo"
   ],
   "license": "MIT",
   "author": "tangdaoyuan <1197633750@qq.com> (https://github.com/tangdaoyuan/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tangdaoyuan/tsup-starter.git"
+    "url": "git+https://github.com/tangdaoyuan/graphql-demo.git"
   },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -43,9 +41,9 @@
     "release": "bumpp --tag --commit --push && pnpm publish"
   },
   "bugs": {
-    "url": "https://github.com/tangdaoyuan/tsup-starter/issues"
+    "url": "https://github.com/tangdaoyuan/graphql-demo/issues"
   },
-  "homepage": "https://github.com/tangdaoyuan/tsup-starter#readme",
+  "homepage": "https://github.com/tangdaoyuan/graphql-demo#readme",
   "dependencies": {
     "picocolors": "^1.0.0"
   },
