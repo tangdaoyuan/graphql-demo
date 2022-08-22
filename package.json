@@ -28,6 +28,7 @@
     "*.d.ts"
   ],
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "pnpm run -r dev",
     "test": "vitest",
     "test:run": "vitest run",
